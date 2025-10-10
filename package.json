@@ -1,6 +1,6 @@
 {
-  "name": "@iqkv/standard-docs-vitepress-project-layout",
-  "version": "0.25.0",
+  "name": "@gripday/gripday-docs",
+  "version": "0.0.0",
   "description": "Project documentation powered by Vitepress.",
   "type": "module",
   "scripts": {
