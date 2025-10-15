@@ -6,7 +6,13 @@ export default defineConfig({
   description:
     "Open-Core B2B Marketing Automation Platform - Enterprise-grade microservices architecture built with Java 21, Spring Boot 3, and React 19.",
   head: [
-    ["link", { rel: "icon", href: "https://gripday.com/assets/images/10023-icon-service-Kubernetes-Services.svg" }],
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "https://gripday.com/assets/images/10023-icon-service-Kubernetes-Services.svg",
+      },
+    ],
     ["meta", { name: "theme-color", content: "#3c82f6" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "en" }],
