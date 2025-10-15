@@ -42,7 +42,6 @@ export default defineConfig({
         items: [
           { text: "Getting Started", link: "/development/getting-started" },
           { text: "Local Setup", link: "/development/local-setup" },
-          { text: "Contributing", link: "/development/contributing" },
         ],
       },
       {
