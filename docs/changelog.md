@@ -56,7 +56,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Technical Highlights
 
-- **Java 25**: Latest Java features with virtual threads for high concurrency
+- **Java 21**: Latest Java features with virtual threads for high concurrency
 - **Spring Boot 3**: Modern Spring framework with native compilation support
 - **React 19**: Latest React with concurrent features and improved performance
 - **PostgreSQL 16+**: Advanced database features with CloudNativePG operator
@@ -149,7 +149,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### 2024-12-05 - Technical Planning
 
 - **Microservices Architecture**: Service boundaries and responsibilities defined
-- **Technology Stack**: Java 25, Spring Boot 3, React 19 selected
+- **Technology Stack**: Java 21, Spring Boot 3, React 19 selected
 - **Infrastructure Design**: Kubernetes-native deployment strategy
 - **Development Approach**: Cloud-native development practices established
 

@@ -143,7 +143,7 @@ _"Open-core modular platform that powers sustainable SaaS growth through marketi
 
 - "Build marketing automation on proven open-source foundation"
 - "API-first architecture with unlimited extensibility"
-- "Modern microservices platform built with Java 25 and React 19"
+- "Modern microservices platform built with Java 21 and React 19"
 - "Community-driven development with commercial sustainability"
 
 **For SaaS Businesses**:
@@ -177,7 +177,7 @@ _"Open-core modular platform that powers sustainable SaaS growth through marketi
 **Message**: "Built with cutting-edge technology for superior performance and scalability"
 **Proof Points**:
 
-- Java 25 with virtual threads for high concurrency
+- Java 21 with virtual threads for high concurrency
 - React 19 with latest frontend innovations
 - Microservices architecture for independent scaling
 - Kubernetes-native deployment for cloud flexibility

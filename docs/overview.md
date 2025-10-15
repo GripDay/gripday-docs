@@ -1,6 +1,6 @@
 # Project Overview
 
-**GripDay** is a revolutionary open-core B2B marketing automation platform that addresses a $6.1B market opportunity with 12.8% CAGR growth. Built with cutting-edge Java 25 and React 19 technologies, it delivers enterprise-grade capabilities through a sustainable open-core business model.
+**GripDay** is a revolutionary open-core B2B marketing automation platform that addresses a $6.1B market opportunity with 12.8% CAGR growth. Built with cutting-edge Java 21 and React 19 technologies, it delivers enterprise-grade capabilities through a sustainable open-core business model.
 
 ## 🎯 Mission Statement
 
@@ -17,7 +17,7 @@ The **first enterprise-grade open-core B2B marketing automation platform** that 
 
 ### Modern Technology Foundation
 
-- **Java 25 with virtual threads** for superior performance and concurrency
+- **Java 21 with virtual threads** for superior performance and concurrency
 - **React 19** with latest frontend technology and concurrent features
 - **Microservices architecture** for better scalability than monolithic competitors
 - **Cloud-native design** with Kubernetes-ready deployment
@@ -46,7 +46,7 @@ GripDay implements a **microservices-first architecture** designed for enterpris
 
 ### Technology Stack
 
-- **Backend**: Java 25, Spring Boot 3, Spring Security 6, Apache Kafka
+- **Backend**: Java 21, Spring Boot 3, Spring Security 6, Apache Kafka
 - **Frontend**: React 19, TypeScript, Mantine UI, Vite
 - **Database**: PostgreSQL 16+ with CloudNativePG operator
 - **Infrastructure**: Kubernetes, Istio service mesh, Docker
@@ -129,7 +129,7 @@ GripDay implements a **microservices-first architecture** designed for enterpris
 
 - **Infrastructure Setup**: Kubernetes-native development environment
 - **Core Services**: 8 microservices with event-driven architecture
-- **Technology Stack**: Java 25, Spring Boot 3, React 19, Apache Kafka
+- **Technology Stack**: Java 21, Spring Boot 3, React 19, Apache Kafka
 - **Deployment**: GitOps with ArgoCD and Helm charts
 
 ### Next Phases

@@ -39,7 +39,7 @@ Deliver a **functional B2B marketing automation platform** that demonstrates the
 
 ### Technology Stack
 
-- **Backend**: Java 25, Spring Boot 3, PostgreSQL 16+
+- **Backend**: Java 21, Spring Boot 3, PostgreSQL 16+
 - **Frontend**: React 19, TypeScript, Mantine UI
 - **Infrastructure**: Kubernetes, Docker, Apache Kafka
 - **Monitoring**: Prometheus, Grafana, Jaeger

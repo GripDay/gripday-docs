@@ -21,7 +21,7 @@ Welcome to GripDay development! This guide will help you set up your development
 ```bash
 # Core Development Tools
 - Git 2.40+
-- Java 25+ (OpenJDK or Oracle JDK)
+- Java 21+ (OpenJDK or Oracle JDK)
 - Node.js 18+ with npm/pnpm
 - Docker Desktop 4.20+
 - kubectl 1.28+

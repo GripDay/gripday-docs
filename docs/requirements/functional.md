@@ -440,7 +440,7 @@ GET    /api/v1/ai/insights          - AI insights
 
 ### Technology Stack
 
-- **Backend**: Java 25, Spring Boot 3, Spring Security 6
+- **Backend**: Java 21, Spring Boot 3, Spring Security 6
 - **Frontend**: React 19, TypeScript, Mantine UI
 - **Database**: PostgreSQL 16+ with CloudNativePG
 - **Messaging**: Apache Kafka with Strimzi operator

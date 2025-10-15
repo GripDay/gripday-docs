@@ -1,6 +1,6 @@
 # Business Presentation
 
-**GripDay** is a revolutionary open-core B2B marketing automation platform that addresses a $6.1B market opportunity with 12.8% CAGR growth. Built with cutting-edge Java 25 and React 19 technologies, it delivers enterprise-grade capabilities through a sustainable open-core business model.
+**GripDay** is a revolutionary open-core B2B marketing automation platform that addresses a $6.1B market opportunity with 12.8% CAGR growth. Built with cutting-edge Java 21 and React 19 technologies, it delivers enterprise-grade capabilities through a sustainable open-core business model.
 
 ## 📊 Executive Summary
 
@@ -16,7 +16,7 @@
 - **Open-Core Business Model**: Sustainable revenue model funding continuous innovation
 - **Modular Architecture**: Core modules (open-source) + premium plugins (commercial) design
 - **SaaS-Ready Platform**: Built for businesses that need to scale both functionality and revenue
-- **Modern Technology Stack**: Java 25 virtual threads and React 19 for superior performance
+- **Modern Technology Stack**: Java 21 virtual threads and React 19 for superior performance
 
 ## 🎯 Value Proposition
 
@@ -128,7 +128,7 @@ GripDay establishes itself as:
 
 ### Performance Innovation
 
-- **Java 25 virtual threads** for high concurrent operations
+- **Java 21 virtual threads** for high concurrent operations
 - **Redis caching** for sub-second response times
 - **Elasticsearch integration** for advanced search capabilities
 - **CDN integration** for global content delivery

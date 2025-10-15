@@ -31,7 +31,7 @@ Welcome to the GripDay community! We're excited to have you contribute to the fi
 
 #### Prerequisites
 
-- Java 25+ (OpenJDK recommended)
+- Java 21+ (OpenJDK recommended)
 - Node.js 18+ with npm/pnpm
 - Docker Desktop 4.20+
 - Git 2.40+

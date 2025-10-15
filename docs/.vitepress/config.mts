@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "GripDay Platform",
   description:
-    "Open-Core B2B Marketing Automation Platform - Enterprise-grade microservices architecture built with Java 25, Spring Boot 3, and React 19.",
+    "Open-Core B2B Marketing Automation Platform - Enterprise-grade microservices architecture built with Java 21, Spring Boot 3, and React 19.",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["meta", { name: "theme-color", content: "#3c82f6" }],

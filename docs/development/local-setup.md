@@ -20,7 +20,7 @@ Perfect for rapid development and testing individual microservices.
 # Required Software
 - Docker Desktop 4.20+ (with Docker Compose V2)
 - Git 2.40+
-- Java 25+ (for local development)
+- Java 21+ (for local development)
 - Node.js 18+ (for frontend development)
 - Make (optional, for convenience commands)
 
@@ -428,7 +428,7 @@ kubectl rollout restart deployment -n gripday
 File → Open → Select gripday-platform directory
 
 # Configure JDK
-File → Project Structure → Project → Project SDK → Add JDK → Select Java 25
+File → Project Structure → Project → Project SDK → Add JDK → Select Java 21
 
 # Configure Maven
 File → Settings → Build Tools → Maven → Maven home directory

@@ -5,10 +5,10 @@ layout: home
 hero:
   name: "GripDay Platform"
   text: "Open-Core B2B Marketing Automation"
-  tagline: Enterprise-grade microservices platform built with Java 25, Spring Boot 3, and React 19. Free core modules with commercial premium features.
+  tagline: Enterprise-grade microservices platform built with Java 21, Spring Boot 3, and React 19. Free core modules with commercial premium features.
   image:
-    src: /hero-logo.svg
-    alt: GripDay Platform
+    src: assets/images/hero/hero-image.png
+    alt: GripDay Platform Docs
   actions:
     - theme: brand
       text: Get Started
@@ -27,7 +27,7 @@ features:
 
   - icon: ⚡
     title: Modern Microservices Architecture
-    details: Built with Java 25, Spring Boot 3, and React 19. Kubernetes-native deployment with event-driven communication via Apache Kafka.
+    details: Built with Java 21, Spring Boot 3, and React 19. Kubernetes-native deployment with event-driven communication via Apache Kafka.
 
   - icon: 🏢
     title: B2B Marketing Automation
@@ -80,7 +80,7 @@ GripDay addresses a **$6.1B market opportunity** with **12.8% CAGR** growth by b
 
 **Backend**
 
-- Java 25 with Virtual Threads
+- Java 21 with Virtual Threads
 - Spring Boot 3.3+ with Spring Security 6
 - Apache Kafka for event streaming
 - PostgreSQL 16+ with CloudNativePG
