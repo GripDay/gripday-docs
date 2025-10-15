@@ -6,7 +6,7 @@ export default defineConfig({
   description:
     "Open-Core B2B Marketing Automation Platform - Enterprise-grade microservices architecture built with Java 21, Spring Boot 3, and React 19.",
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["link", { rel: "icon", href: "https://gripday.com/assets/images/10023-icon-service-Kubernetes-Services.svg" }],
     ["meta", { name: "theme-color", content: "#3c82f6" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "en" }],
@@ -107,10 +107,6 @@ export default defineConfig({
           items: [
             { text: "Getting Started", link: "/development/getting-started" },
             { text: "Local Development", link: "/development/local-setup" },
-            { text: "Docker Setup", link: "/development/docker-setup" },
-            { text: "Kubernetes Setup", link: "/development/kubernetes-setup" },
-            { text: "API Reference", link: "/development/api-reference" },
-            { text: "Testing Guide", link: "/development/testing" },
           ],
         },
         {
@@ -119,21 +115,7 @@ export default defineConfig({
           items: [
             { text: "Business Presentation", link: "/business/presentation" },
             { text: "Market Analysis", link: "/business/market-analysis" },
-            {
-              text: "Competitive Analysis",
-              link: "/business/competitive-analysis",
-            },
             { text: "Brand Strategy", link: "/business/brand-strategy" },
-            { text: "Open-Core Model", link: "/business/open-core-model" },
-          ],
-        },
-        {
-          text: "Project Management",
-          collapsed: true,
-          items: [
-            { text: "MVP Roadmap", link: "/project/mvp-roadmap" },
-            { text: "Sprint Planning", link: "/project/sprint-planning" },
-            { text: "Development Status", link: "/project/status" },
           ],
         },
         {
