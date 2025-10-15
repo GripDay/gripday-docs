@@ -173,5 +173,5 @@ export default defineConfig({
     },
   },
   ignoreDeadLinks: [/^https?:\/\/localhost/],
-  cleanUrls: true,
+  cleanUrls: false,
 });
