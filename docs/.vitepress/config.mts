@@ -158,11 +158,11 @@ export default defineConfig({
 
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2024 GripDay Platform",
+      copyright: "Copyright © 2025 GripDay Platform",
     },
 
     editLink: {
-      pattern: "https://github.com/GripDay/gripday/edit/main/docs/:path",
+      pattern: "https://github.com/GripDay/gripday-docs",
     },
 
     search: {
