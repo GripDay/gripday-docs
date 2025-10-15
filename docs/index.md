@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "IQKV Foundation"
+  name: "GripDay Platform"
   text: "Free, open-source, modern Java platform"
   tagline: Headless platform built using Spring Boot, Kafka, Postgresql, and ReactJs.
   actions:
