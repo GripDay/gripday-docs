@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "GripDay Platform"
-  text: "Open-Core B2B Marketing Automation"
+  name: "GripDay Platform Docs"
+  text: "Open-Source B2B Marketing Automation"
   tagline: Enterprise-grade microservices platform built with Java 21, Spring Boot 3, and React 19. Free core modules with commercial premium features.
   image:
-    src: assets/images/hero/hero-image.png
+    src: https://gripday.com/assets/images/hero/hero-image.png
     alt: GripDay Platform Docs
   actions:
     - theme: brand
