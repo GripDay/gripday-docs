@@ -48,7 +48,7 @@ git --version             # Should be 2.30+
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/gripday/gripday-platform.git
+git clone https://github.com/GripDay/gripday.git
 cd gripday-platform
 ```
 
@@ -212,7 +212,7 @@ az aks create --resource-group myResourceGroup --name gripday --node-count 3
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/gripday/gripday-platform.git
+git clone https://github.com/GripDay/gripday.git
 cd gripday-platform
 ```
 
@@ -744,7 +744,7 @@ kubectl exec -it postgresql-0 -n gripday -- psql -U postgres -c "SELECT * FROM p
 #### Support Channels
 
 - **📖 Documentation**: [docs.gripday.com](https://docs.gripday.com)
-- **🐛 GitHub Issues**: [github.com/gripday/gripday-platform/issues](https://github.com/gripday/gripday-platform/issues)
+- **🐛 GitHub Issues**: [github.com/GripDay/gripday/issues](https://github.com/GripDay/gripday/issues)
 - **💬 Community Discord**: [discord.gg/gripday](https://discord.gg/gripday)
 - **📧 Email Support**: support@gripday.com
 - **📞 Enterprise Support**: Available with commercial licenses

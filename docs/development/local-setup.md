@@ -36,7 +36,7 @@ Perfect for rapid development and testing individual microservices.
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/gripday/gripday-platform.git
+git clone https://github.com/GripDay/gripday.git
 cd gripday-platform
 ```
 

@@ -506,7 +506,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/gripday/gripday-platform
+    repoURL: https://github.com/GripDay/gripday
     targetRevision: main
     path: helm/gripday-platform
     helm:
@@ -564,7 +564,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/gripday/gripday-platform
+        repoURL: https://github.com/GripDay/gripday
         targetRevision: main
         path: helm/gripday-platform
         helm:

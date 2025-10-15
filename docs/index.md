@@ -105,7 +105,7 @@ GripDay addresses a **$6.1B market opportunity** with **12.8% CAGR** growth by b
 
 ```bash
 # Clone the repository
-git clone https://github.com/gripday/gripday-platform.git
+git clone https://github.com/GripDay/gripday.git
 cd gripday-platform
 
 # Start with Docker Compose (fastest)

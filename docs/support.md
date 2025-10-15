@@ -15,7 +15,7 @@ Get help with GripDay through our comprehensive support channels. Whether you're
 
 - **🔍 Search Documentation**: Use the search bar above to find answers quickly
 - **📖 Check FAQ**: Review our [Frequently Asked Questions](#frequently-asked-questions)
-- **🐛 Known Issues**: Check [GitHub Issues](https://github.com/gripday/gripday-platform/issues) for known problems
+- **🐛 Known Issues**: Check [GitHub Issues](https://github.com/GripDay/gripday/issues) for known problems
 
 ## 📚 Self-Service Resources
 
@@ -70,7 +70,7 @@ Join our active Discord community for real-time help and discussions.
 
 Participate in longer-form discussions and community Q&A.
 
-**[GitHub Discussions](https://github.com/gripday/gripday-platform/discussions)**
+**[GitHub Discussions](https://github.com/GripDay/gripday/discussions)**
 
 **Categories:**
 
@@ -94,7 +94,7 @@ Ask technical questions and get answers from the broader developer community.
 
 Help us improve GripDay by reporting bugs and issues.
 
-**[Create Bug Report](https://github.com/gripday/gripday-platform/issues/new?template=bug_report.md)**
+**[Create Bug Report](https://github.com/GripDay/gripday/issues/new?template=bug_report.md)**
 
 **Include in your bug report:**
 
@@ -110,7 +110,7 @@ Help us improve GripDay by reporting bugs and issues.
 
 Suggest new features and improvements to make GripDay better.
 
-**[Request Feature](https://github.com/gripday/gripday-platform/issues/new?template=feature_request.md)**
+**[Request Feature](https://github.com/GripDay/gripday/issues/new?template=feature_request.md)**
 
 **Include in your feature request:**
 

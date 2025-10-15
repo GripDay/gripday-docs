@@ -299,4 +299,4 @@ Join our beta testing program to get early access to new features:
 
 ---
 
-_Stay updated with the latest GripDay releases by watching our [GitHub repository](https://github.com/gripday/gripday-platform) and joining our [Discord community](https://discord.gg/gripday)._
+_Stay updated with the latest GripDay releases by watching our [GitHub repository](https://github.com/GripDay/gripday) and joining our [Discord community](https://discord.gg/gripday)._

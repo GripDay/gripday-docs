@@ -42,7 +42,6 @@ export default defineConfig({
         items: [
           { text: "Getting Started", link: "/development/getting-started" },
           { text: "Local Setup", link: "/development/local-setup" },
-          { text: "API Reference", link: "/development/api-reference" },
           { text: "Contributing", link: "/development/contributing" },
         ],
       },
@@ -154,7 +153,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/gripday/gripday-platform",
+        link: "https://github.com/GripDay/gripday",
       },
     ],
 
@@ -165,7 +164,7 @@ export default defineConfig({
 
     editLink: {
       pattern:
-        "https://github.com/gripday/gripday-platform/edit/main/docs/:path",
+        "https://github.com/GripDay/gripday/edit/main/docs/:path",
     },
 
     search: {

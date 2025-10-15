@@ -24,7 +24,7 @@ Perfect for getting started quickly and testing the platform.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/gripday/gripday-platform.git
+git clone https://github.com/GripDay/gripday.git
 cd gripday-platform
 
 # 2. Start the platform
@@ -77,7 +77,7 @@ Recommended for development that mirrors production deployment.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/gripday/gripday-platform.git
+git clone https://github.com/GripDay/gripday.git
 cd gripday-platform
 
 # 2. Start Minikube cluster
@@ -117,7 +117,7 @@ eksctl create cluster --name gripday --region us-west-2 --nodes 3
 
 # 2. Deploy GripDay
 helm repo add gripday https://charts.gripday.com
-helm install gripday gripday/gripday-platform
+helm install gripday GripDay/gripday
 
 # 3. Get LoadBalancer URL
 kubectl get svc api-gateway -o jsonpath='{.status.loadBalancer.ingress[0].hostname}'
@@ -131,7 +131,7 @@ gcloud container clusters create gripday --num-nodes=3 --zone=us-central1-a
 
 # 2. Deploy GripDay
 helm repo add gripday https://charts.gripday.com
-helm install gripday gripday/gripday-platform
+helm install gripday GripDay/gripday
 
 # 3. Get LoadBalancer IP
 kubectl get svc api-gateway -o jsonpath='{.status.loadBalancer.ingress[0].ip}'
@@ -356,7 +356,7 @@ docker stats
 ### Getting Help
 
 - **📖 Documentation**: [Full documentation](/overview)
-- **🐛 Issues**: [GitHub Issues](https://github.com/gripday/gripday-platform/issues)
+- **🐛 Issues**: [GitHub Issues](https://github.com/GripDay/gripday/issues)
 - **💬 Community**: [Discord Server](https://discord.gg/gripday)
 - **📧 Support**: support@gripday.com
 

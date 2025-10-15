@@ -41,11 +41,11 @@ Welcome to the GripDay community! We're excited to have you contribute to the fi
 
 ```bash
 # Fork the repository on GitHub first
-git clone https://github.com/YOUR_USERNAME/gripday-platform.git
-cd gripday-platform
+git clone https://github.com/YOUR_USERNAME/gripday.git
+cd gripday
 
 # Add upstream remote
-git remote add upstream https://github.com/gripday/gripday-platform.git
+git remote add upstream https://github.com/GripDay/gripday.git
 
 # Start development environment
 ./scripts/dev-setup.sh
@@ -679,7 +679,7 @@ Active contributors may be invited to become maintainers:
 ### Community Support
 
 - **Discord**: [discord.gg/gripday](https://discord.gg/gripday)
-- **GitHub Discussions**: [github.com/gripday/gripday-platform/discussions](https://github.com/gripday/gripday-platform/discussions)
+- **GitHub Discussions**: [github.com/GripDay/gripday/discussions](https://github.com/GripDay/gripday/discussions)
 - **Stack Overflow**: Tag questions with `gripday`
 
 ### Maintainer Contact
