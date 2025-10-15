@@ -163,8 +163,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern:
-        "https://github.com/GripDay/gripday/edit/main/docs/:path",
+      pattern: "https://github.com/GripDay/gripday/edit/main/docs/:path",
     },
 
     search: {
