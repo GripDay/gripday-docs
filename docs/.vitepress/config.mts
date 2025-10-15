@@ -172,4 +172,5 @@ export default defineConfig({
       provider: "local",
     },
   },
+  ignoreDeadLinks: [/^https?:\/\/localhost/],
 });

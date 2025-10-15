@@ -573,9 +573,9 @@ kubectl apply -f k8s/argocd/applications/
 ## 📚 Next Steps
 
 1. **[Local Development Setup](/development/local-setup)** - Detailed environment setup
-2. **[API Reference](/development/api-reference)** - Complete API documentation
-3. **[Testing Guide](/development/testing)** - Comprehensive testing strategies
-4. **[Contributing Guide](/contributing)** - How to contribute to the project
+2. **[Contributing Guide](/contributing)** - How to contribute to the project
+3. **[Architecture Overview](/architecture/system-design)** - System design and architecture
+4. **[Requirements](/requirements/functional)** - Functional and technical requirements
 
 ## 🤝 Getting Help
 

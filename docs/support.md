@@ -23,9 +23,9 @@ Get help with GripDay through our comprehensive support channels. Whether you're
 
 - **[Getting Started](/development/getting-started)** - Set up your development environment
 - **[Installation Guide](/installation)** - Complete installation instructions
-- **[API Reference](/development/api-reference)** - Comprehensive API documentation
 - **[Architecture Guide](/architecture/system-design)** - Understand the platform design
-- **[Troubleshooting Guide](/troubleshooting)** - Common problems and solutions
+- **[Configuration Guide](/configuration)** - Detailed configuration options
+- **[Monitoring Guide](/monitoring)** - Set up monitoring and alerting
 
 ### Video Tutorials
 
@@ -359,7 +359,7 @@ A: Yes! GripDay supports self-hosted deployment using Docker Compose or Kubernet
 A: We offer managed cloud hosting as part of our commercial services. Contact sales@gripday.com for details.
 
 **Q: How do I backup my GripDay data?**
-A: GripDay includes automated backup capabilities. See our [Backup Guide](/deployment/backup) for detailed instructions.
+A: GripDay includes automated backup capabilities. See our [Architecture Guide](/architecture/deployment) for deployment and backup strategies.
 
 ### Business Questions
 

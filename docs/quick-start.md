@@ -365,10 +365,10 @@ docker stats
 Now that GripDay is running, explore these areas:
 
 1. **[Architecture Overview](/architecture/system-design)** - Understand the platform design
-2. **[API Documentation](/development/api-reference)** - Explore the REST APIs
-3. **[User Guide](/user-guide)** - Learn how to use the platform
-4. **[Development Guide](/development/getting-started)** - Start contributing
-5. **[Deployment Guide](/deployment)** - Deploy to production
+2. **[Development Guide](/development/getting-started)** - Start contributing
+3. **[Configuration Guide](/configuration)** - Detailed configuration options
+4. **[Monitoring Guide](/monitoring)** - Set up monitoring and alerting
+5. **[Contributing Guide](/contributing)** - How to contribute to the project
 
 ## 🎉 Welcome to GripDay!
 
@@ -387,4 +387,4 @@ Start exploring the platform and building your marketing automation workflows!
 
 ---
 
-_Need help? Check our [troubleshooting guide](/troubleshooting) or join our [community Discord](https://discord.gg/gripday)._
+_Need help? Check our [support guide](/support) or join our [community Discord](https://discord.gg/gripday)._

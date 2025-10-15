@@ -755,9 +755,9 @@ After successful installation:
 
 1. **[Quick Start Guide](/quick-start)** - Get up and running quickly
 2. **[Configuration Guide](/configuration)** - Detailed configuration options
-3. **[User Guide](/user-guide)** - Learn how to use GripDay
-4. **[API Documentation](/development/api-reference)** - Integrate with GripDay
-5. **[Monitoring Guide](/monitoring)** - Set up monitoring and alerting
+3. **[Development Setup](/development/getting-started)** - Start developing with GripDay
+4. **[Monitoring Guide](/monitoring)** - Set up monitoring and alerting
+5. **[Contributing Guide](/contributing)** - How to contribute to the project
 
 ---
 
