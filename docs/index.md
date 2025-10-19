@@ -48,7 +48,7 @@ features:
 - **[Quick Start](/quick-start)** - Get GripDay running in minutes
 - **[Installation](/installation)** - Detailed installation and setup guides
 - **[Configuration](/configuration)** - Platform configuration and customization
-- **[Architecture](/architecture/)** - System design and technical details
+- **[Architecture](/architecture/system-design)** - System design and technical details
 - **[Monitoring](/monitoring)** - Observability and performance monitoring
 - **[Contributing](/contributing)** - Development and contribution guidelines
 
