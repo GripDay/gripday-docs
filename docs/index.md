@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "GripDay Docs"
-  text: "Documentation & API Reference"
-  tagline: Complete documentation for the GripDay B2B marketing automation platform.
+  name: "GripDay"
+  text: "AI SDR Platform for Daily Growth"
+  tagline: Documentation for the B2B marketing automation platform.
   actions:
     - theme: brand
       text: Quick Start
