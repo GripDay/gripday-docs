@@ -206,7 +206,7 @@ _"Open-core modular platform that powers sustainable SaaS growth through marketi
 
 ### Primary Audience: Sales Development Representatives (SDRs)
 
-**Core Message**: "Get a grip on your sales day with open-core marketing automation"
+**Core Message**: "AI SDR Platform for Daily Growth"
 
 **Key Messages**:
 
