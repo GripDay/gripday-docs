@@ -51,7 +51,7 @@ Perfect for initial development and testing individual services.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/GripDay/gripday.git
+git clone https://github.com/GripDay/gripday.git gripday-platform
 cd gripday-platform
 ```
 

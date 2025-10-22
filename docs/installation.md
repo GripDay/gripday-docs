@@ -48,7 +48,7 @@ git --version             # Should be 2.30+
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/GripDay/gripday.git
+git clone https://github.com/GripDay/gripday.git gripday-platform
 cd gripday-platform
 ```
 

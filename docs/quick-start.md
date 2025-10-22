@@ -24,7 +24,7 @@ Perfect for getting started quickly and testing the platform.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/GripDay/gripday.git
+git clone https://github.com/GripDay/gripday.git gripday-platform
 cd gripday-platform
 
 # 2. Start the platform
