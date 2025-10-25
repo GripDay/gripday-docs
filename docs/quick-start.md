@@ -116,7 +116,7 @@ Deploy to your cloud provider for production use.
 eksctl create cluster --name gripday --region us-west-2 --nodes 3
 
 # 2. Deploy GripDay
-helm repo add gripday https://charts.gripday.com
+helm repo add gripday https://github.com/GripDay/helm-charts
 helm install gripday GripDay/gripday
 
 # 3. Get LoadBalancer URL
