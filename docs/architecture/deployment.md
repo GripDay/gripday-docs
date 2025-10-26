@@ -547,15 +547,15 @@ spec:
     - list:
         elements:
           - cluster: development
-            url: https://dev-cluster.gripday.com
+            url: https://gripday.org
             values: values-dev.yaml
             namespace: gripday-dev
           - cluster: staging
-            url: https://staging-cluster.gripday.com
+            url: https://gripday.space
             values: values-staging.yaml
             namespace: gripday-staging
           - cluster: production
-            url: https://prod-cluster.gripday.com
+            url: https://gripday.com
             values: values-production.yaml
             namespace: gripday-app
   template:
@@ -565,7 +565,7 @@ spec:
       project: default
       source:
         repoURL: https://github.com/GripDay/gripday
-        targetRevision: main
+        targetRevision: dev
         path: helm/gripday-platform
         helm:
           valueFiles:
