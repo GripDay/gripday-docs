@@ -279,7 +279,7 @@ my-new-service/
 │   └── event/                  # Event handlers
 ├── src/main/resources/
 │   ├── application.yml         # Configuration
-│   ├── db/migration/           # Flyway migrations
+│   ├── db/migration/           # Liquibase migrations
 │   └── static/                 # Static resources
 ├── src/test/                   # Tests
 ├── Dockerfile                  # Container image

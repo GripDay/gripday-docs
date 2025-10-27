@@ -246,7 +246,7 @@ export const ContactList: React.FC<ContactListProps> = ({
 
 ### Database Migrations
 
-#### Flyway Migration Format
+#### Liquibase Migration Format
 
 ```sql
 -- V1.2.0__Add_contact_scoring_fields.sql

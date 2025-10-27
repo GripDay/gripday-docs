@@ -30,7 +30,7 @@ GripDay implements a **domain-driven microservices architecture** with 8 core se
 ### Technology Stack
 
 - **Framework**: Spring Boot 3 with Spring Security 6
-- **Database**: PostgreSQL with Flyway migrations
+- **Database**: PostgreSQL with Liquibase migrations
 - **Authentication**: JWT with BCrypt password hashing
 - **Caching**: Redis for session management and token blacklisting
 
@@ -44,6 +44,7 @@ POST   /api/v1/auth/logout       - User logout
 GET    /api/v1/auth/profile      - User profile
 PUT    /api/v1/auth/profile      - Update profile
 GET    /api/v1/auth/permissions  - User permissions
+GET    /api/v1/users/me          - Get current user details
 ```
 
 ### Core Implementation

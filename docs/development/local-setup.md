@@ -180,7 +180,7 @@ docker-compose exec contact-service bash
 docker-compose exec postgres-contacts psql -U gripday_user -d gripday_contacts
 
 # Run database migrations
-docker-compose exec contact-service ./mvnw flyway:migrate
+docker-compose exec contact-service ./mvnw liquibase:update
 
 # Reset database (data loss!)
 docker-compose exec postgres-contacts psql -U gripday_user -d gripday_contacts -c "DROP SCHEMA public CASCADE; CREATE SCHEMA public;"
@@ -570,7 +570,7 @@ my-new-service/
 ├── src/main/resources/
 │   ├── application.yml                   # Configuration
 │   ├── application-development.yml       # Dev configuration
-│   ├── db/migration/                     # Flyway migrations
+│   ├── db/migration/                     # Liquibase migrations
 │   │   └── V1__Create_initial_schema.sql
 │   └── static/                           # Static resources
 └── src/test/                             # Tests
@@ -670,13 +670,12 @@ WHERE score IS NULL;
 ```bash
 # Run migrations for specific service
 cd services/contact-service
-./mvnw flyway:migrate
+./mvnw liquibase:update
 
 # Or via Docker
-docker-compose exec contact-service ./mvnw flyway:migrate
+docker-compose exec contact-service ./mvnw liquibase:update
 
-# Check migration status
-./mvnw flyway:info
+
 ```
 
 ### Event-Driven Development

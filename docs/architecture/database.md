@@ -17,7 +17,7 @@ GripDay implements a **database-per-service** pattern with PostgreSQL as the pri
 - **Primary Database**: PostgreSQL 16+ with advanced features
 - **Operator**: CloudNativePG for Kubernetes-native management
 - **Connection Pooling**: PgBouncer for connection management
-- **Migrations**: Flyway for version-controlled schema changes
+- **Migrations**: Liquibase for version-controlled schema changes
 - **Monitoring**: Prometheus metrics and performance monitoring
 
 ## 🗄️ Service Database Schemas
@@ -399,17 +399,14 @@ max_db_connections = 30
 
 ### Migration Strategy
 
-**Flyway Configuration:**
+**Liquibase Configuration:**
 
 ```yaml
 # application.yml
 spring:
-  flyway:
+  liquibase:
     enabled: true
-    locations: classpath:db/migration
-    baseline-on-migrate: true
-    validate-on-migrate: true
-    clean-disabled: true
+    change-log: classpath:db/db.master.xml
 ```
 
 **Migration Naming Convention:**

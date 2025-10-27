@@ -227,7 +227,7 @@ GripDay follows [Semantic Versioning](https://semver.org/):
 
 ### Database Migrations
 
-All database schema changes are handled through Flyway migrations:
+All database schema changes are handled through Liquibase migrations:
 
 - **Automatic**: Migrations run automatically on service startup
 - **Versioned**: Each migration has a version number and description
