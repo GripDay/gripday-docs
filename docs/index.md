@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "GripDay"
   text: "AI SDR Platform for Daily Growth"
-  tagline: Documentation for the B2B marketing automation platform.
+  tagline: Marketing Automation Platform documentation.
   actions:
     - theme: brand
       text: Quick Start
