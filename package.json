@@ -48,5 +48,5 @@
     "vitepress": "^1.6.4",
     "vue": "^3.5.22"
   },
-  "packageManager": "pnpm@10.18.3"
+  "packageManager": "pnpm@10.19.0"
 }
