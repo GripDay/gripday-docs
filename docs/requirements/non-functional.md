@@ -191,7 +191,7 @@ This document outlines the non-functional requirements (NFRs) for **GripDay**, a
 | ---------------------------- | --------------------------------- | --------------------- |
 | **Service Independence**     | Loosely coupled microservices     | Domain-driven design  |
 | **API Versioning**           | Backward-compatible API evolution | Semantic versioning   |
-| **Database Migrations**      | Version-controlled schema changes | Liquibase migrations     |
+| **Database Migrations**      | Version-controlled schema changes | Liquibase migrations  |
 | **Configuration Management** | Externalized configuration        | Kubernetes ConfigMaps |
 | **Dependency Management**    | Controlled dependency updates     | Dependabot            |
 
