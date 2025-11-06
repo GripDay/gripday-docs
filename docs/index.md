@@ -13,9 +13,6 @@ hero:
     - theme: alt
       text: Installation
       link: /installation
-    - theme: alt
-      text: API Reference
-      link: /api/overview
 
 features:
   - icon: 📚
