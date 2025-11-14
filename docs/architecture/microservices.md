@@ -9,7 +9,7 @@ GripDay implements a **domain-driven microservices architecture** with 8 core se
 | Service                    | Port | Database           | Primary Responsibility                   |
 | -------------------------- | ---- | ------------------ | ---------------------------------------- |
 | **API Gateway**            | 8080 | Redis              | Service orchestration, routing, security |
-| **Authentication Service** | 8081 | PostgreSQL         | User management, JWT auth, RBAC          |
+| **User Service** | 8081 | PostgreSQL         | User management, JWT auth, RBAC          |
 | **Contact Management**     | 8082 | PostgreSQL         | Contact/company lifecycle, segmentation  |
 | **Email Marketing**        | 8083 | PostgreSQL         | Email creation, delivery, tracking       |
 | **Campaign Automation**    | 8084 | PostgreSQL         | Workflow engine, automation              |
@@ -17,7 +17,7 @@ GripDay implements a **domain-driven microservices architecture** with 8 core se
 | **Scoring Service**        | 8086 | PostgreSQL         | Lead scoring, qualification              |
 | **Analytics Service**      | 8087 | PostgreSQL + Redis | Reporting, business intelligence         |
 
-## 🔐 Authentication Service
+## 🔐 User Service
 
 ### Responsibilities
 

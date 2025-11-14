@@ -109,7 +109,7 @@ ENABLE_REGISTRATION=true
 # ✅ Redis: Healthy
 # ✅ Kafka: Healthy
 # ✅ API Gateway: Healthy
-# ✅ Auth Service: Healthy
+# ✅ User Service: Healthy
 # ✅ Contact Service: Healthy
 # ✅ Email Service: Healthy
 # ✅ Campaign Service: Healthy

@@ -42,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - **Core Architecture**: Microservices-first architecture with 8 core services
-- **Authentication Service**: JWT-based authentication with RBAC
+- **User Service**: JWT-based authentication with RBAC
 - **API Gateway**: Spring Cloud Gateway with intelligent routing and rate limiting
 - **Contact Management**: Complete contact and company lifecycle management
 - **Email Marketing**: Multi-provider SMTP integration with comprehensive tracking

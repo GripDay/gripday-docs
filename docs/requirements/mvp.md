@@ -29,7 +29,7 @@ Deliver a **functional B2B marketing automation platform** that demonstrates the
 ### Core Microservices (8 Services)
 
 1. **API Gateway** - Service orchestration and routing
-2. **Authentication Service** - User management and security
+2. **User Service** - User management and security
 3. **Contact Management Service** - Contact and company data
 4. **Email Marketing Service** - Email campaigns and delivery
 5. **Campaign Automation Service** - Basic workflow automation

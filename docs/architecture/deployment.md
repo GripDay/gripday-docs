@@ -43,7 +43,7 @@ graph TB
 
         subgraph "Application Layer"
             Gateway[API Gateway]
-            Auth[Auth Service]
+            Auth[User Service]
             Contact[Contact Service]
             Email[Email Service]
             Campaign[Campaign Service]

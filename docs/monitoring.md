@@ -67,9 +67,9 @@ scrape_configs:
   metrics_path: "/actuator/prometheus"
   scrape_interval: 30s
 
-- job_name: "gripday-auth-service"
+- job_name: "gripday-user-service"
   static_configs:
-    - targets: ["auth-service:8081"]
+    - targets: ["user-service:8081"]
   metrics_path: "/actuator/prometheus"
   scrape_interval: 30s
 

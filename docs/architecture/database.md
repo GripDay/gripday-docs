@@ -22,7 +22,7 @@ GripDay implements a **database-per-service** pattern with PostgreSQL as the pri
 
 ## 🗄️ Service Database Schemas
 
-### Authentication Service Database
+### User Service Database
 
 **Purpose**: User management, authentication, and authorization
 

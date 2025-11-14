@@ -35,7 +35,7 @@ GripDay implements a **microservices-first architecture** designed for enterpris
 
 ### Core Microservices (MVP Phase 1)
 
-1. **Authentication Service** - Centralized auth with JWT and RBAC
+1. **User Service** - Centralized auth with JWT and RBAC
 2. **API Gateway** - Intelligent routing, rate limiting, and security
 3. **Contact Management Service** - Contact and company lifecycle management
 4. **Email Marketing Service** - Email creation, delivery, and tracking

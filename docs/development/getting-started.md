@@ -72,7 +72,7 @@ cd gripday-platform
 ./scripts/docker-dev.sh start-services
 
 # Or start individual services for development
-./scripts/docker-dev.sh start auth-service
+./scripts/docker-dev.sh start user-service
 ./scripts/docker-dev.sh start contact-service
 ```
 
@@ -87,10 +87,10 @@ cd gripday-platform
 
 ```bash
 # View logs for specific service
-./scripts/docker-dev.sh logs auth-service
+./scripts/docker-dev.sh logs user-service
 
 # Restart service after changes
-./scripts/docker-dev.sh restart auth-service
+./scripts/docker-dev.sh restart user-service
 
 # Stop everything
 ./scripts/docker-dev.sh stop
@@ -145,7 +145,7 @@ kubectl wait --for=condition=ready pod -l app=kafka --timeout=300s
 helm install gripday ./k8s/helm/gripday-services
 
 # Or deploy individual services for development
-helm install auth-service ./k8s/helm/gripday-services \
+helm install user-service ./k8s/helm/gripday-services \
   --set services.authService.enabled=true \
   --set services.contactService.enabled=false
 ```
@@ -230,7 +230,7 @@ SMTP_PASSWORD=your-app-password
 gripday-platform/
 ├── services/                    # Microservices
 │   ├── api-gateway/            # Spring Cloud Gateway
-│   ├── auth-service/           # Authentication & Authorization
+│   ├── user-service/           # Authentication & Authorization
 │   ├── contact-service/        # Contact Management
 │   ├── email-service/          # Email Marketing
 │   ├── campaign-service/       # Campaign Automation

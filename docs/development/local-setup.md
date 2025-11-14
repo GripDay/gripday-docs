@@ -112,7 +112,7 @@ docker-compose -f docker/infrastructure.yml ps
 docker-compose -f docker/services.yml up -d
 
 # Or start services individually for development
-docker-compose -f docker/services.yml up -d auth-service
+docker-compose -f docker/services.yml up -d user-service
 docker-compose -f docker/services.yml up -d contact-service
 docker-compose -f docker/services.yml up -d email-service
 ```
@@ -120,7 +120,7 @@ docker-compose -f docker/services.yml up -d email-service
 **Application Services Started:**
 
 - **API Gateway**: Service orchestration (port 8080)
-- **Auth Service**: Authentication and authorization (port 8081)
+- **User Service**: Authentication and authorization (port 8081)
 - **Contact Service**: Contact management (port 8082)
 - **Email Service**: Email marketing (port 8083)
 - **Campaign Service**: Campaign automation (port 8084)

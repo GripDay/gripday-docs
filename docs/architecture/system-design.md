@@ -37,7 +37,7 @@ graph TB
     end
 
     subgraph "Authentication & Authorization"
-        AuthService[Auth Service]
+        UserService[User Service]
         IAM[Identity & Access Management]
     end
 
@@ -70,7 +70,7 @@ graph TB
 
     %% Edge routing
     CDN --> Gateway
-    Gateway --> AuthService
+    Gateway --> UserService
 
     %% Service connections
     Gateway --> ContactMS
@@ -107,7 +107,7 @@ graph TB
 **Responsibilities**:
 
 - Intelligent routing with path-based and header-based routing
-- JWT authentication integration with Auth Service
+- JWT authentication integration with User Service
 - Redis-based rate limiting per tenant and endpoint
 - Circuit breaker pattern with Resilience4j
 - CORS support for frontend integration
@@ -133,7 +133,7 @@ public class GatewayConfig {
 }
 ```
 
-### Authentication Service
+### User Service
 
 **Technology**: Spring Boot 3 with Spring Security 6
 
@@ -324,7 +324,7 @@ public class ContactEventPublisher {
 
 Each microservice maintains its own dedicated PostgreSQL database:
 
-- **Auth Service DB**: Users, roles, permissions, sessions
+- **User Service DB**: Users, roles, permissions, sessions
 - **Contact Service DB**: Contacts, companies, activities, imports
 - **Email Service DB**: Templates, campaigns, tracking, deliveries
 - **Campaign Service DB**: Workflows, triggers, executions
@@ -358,12 +358,12 @@ Each microservice maintains its own dedicated PostgreSQL database:
 sequenceDiagram
     participant Client
     participant Gateway
-    participant AuthService
+    participant UserService
     participant BusinessService
 
     Client->>Gateway: Request with JWT
-    Gateway->>AuthService: Validate JWT
-    AuthService->>Gateway: JWT Valid + User Info
+    Gateway->>UserService: Validate JWT
+    UserService->>Gateway: JWT Valid + User Info
     Gateway->>BusinessService: Forward Request + User Context
     BusinessService->>Gateway: Response
     Gateway->>Client: Response

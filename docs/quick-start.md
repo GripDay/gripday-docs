@@ -304,7 +304,7 @@ cp config/custom.yml config/local.yml
 When running in development mode:
 
 - **API Gateway**: 5000
-- **Auth Service**: 5001
+- **User Service**: 5001
 - **Contact Service**: 5002
 - **Email Service**: 5003
 - **Campaign Service**: 5004

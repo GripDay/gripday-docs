@@ -436,7 +436,7 @@ GET    /api/v1/ai/insights          - AI insights
 - **Scoring Service**: Lead scoring and qualification
 - **Analytics Service**: Reporting and business intelligence
 - **API Gateway**: Service orchestration and security
-- **Authentication Service**: Centralized auth and authorization
+- **User Service**: Centralized auth and authorization
 
 ### Technology Stack
 
