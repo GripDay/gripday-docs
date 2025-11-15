@@ -392,7 +392,7 @@ services:
       maxReplicas: 10
       targetCPUUtilizationPercentage: 70
 
-  authService:
+  userService:
     enabled: true
     replicaCount: 2
     resources:

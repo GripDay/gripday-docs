@@ -146,7 +146,7 @@ helm install gripday ./k8s/helm/gripday-services
 
 # Or deploy individual services for development
 helm install user-service ./k8s/helm/gripday-services \
-  --set services.authService.enabled=true \
+  --set services.userService.enabled=true \
   --set services.contactService.enabled=false
 ```
 
