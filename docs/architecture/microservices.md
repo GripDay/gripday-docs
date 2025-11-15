@@ -6,16 +6,16 @@ GripDay implements a **domain-driven microservices architecture** with 8 core se
 
 ### Core Microservices (MVP Phase 1)
 
-| Service                    | Port | Database           | Primary Responsibility                   |
-| -------------------------- | ---- | ------------------ | ---------------------------------------- |
-| **API Gateway**            | 8080 | Redis              | Service orchestration, routing, security |
-| **User Service** | 8081 | PostgreSQL         | User management, JWT auth, RBAC          |
-| **Contact Management**     | 8082 | PostgreSQL         | Contact/company lifecycle, segmentation  |
-| **Email Marketing**        | 8083 | PostgreSQL         | Email creation, delivery, tracking       |
-| **Campaign Automation**    | 8084 | PostgreSQL         | Workflow engine, automation              |
-| **Form Builder**           | 8085 | PostgreSQL         | Form creation, submission processing     |
-| **Scoring Service**        | 8086 | PostgreSQL         | Lead scoring, qualification              |
-| **Analytics Service**      | 8087 | PostgreSQL + Redis | Reporting, business intelligence         |
+| Service                 | Port | Database           | Primary Responsibility                   |
+| ----------------------- | ---- | ------------------ | ---------------------------------------- |
+| **API Gateway**         | 8080 | Redis              | Service orchestration, routing, security |
+| **User Service**        | 8081 | PostgreSQL         | User management, JWT auth, RBAC          |
+| **Contact Management**  | 8082 | PostgreSQL         | Contact/company lifecycle, segmentation  |
+| **Email Marketing**     | 8083 | PostgreSQL         | Email creation, delivery, tracking       |
+| **Campaign Automation** | 8084 | PostgreSQL         | Workflow engine, automation              |
+| **Form Builder**        | 8085 | PostgreSQL         | Form creation, submission processing     |
+| **Scoring Service**     | 8086 | PostgreSQL         | Lead scoring, qualification              |
+| **Analytics Service**   | 8087 | PostgreSQL + Redis | Reporting, business intelligence         |
 
 ## 🔐 User Service
 
@@ -33,19 +33,6 @@ GripDay implements a **domain-driven microservices architecture** with 8 core se
 - **Database**: PostgreSQL with Liquibase migrations
 - **Authentication**: JWT with BCrypt password hashing
 - **Caching**: Redis for session management and token blacklisting
-
-### API Endpoints
-
-```
-POST   /api/v1/auth/register     - User registration
-POST   /api/v1/auth/login        - User authentication
-POST   /api/v1/auth/refresh      - Token refresh
-POST   /api/v1/auth/logout       - User logout
-GET    /api/v1/auth/profile      - User profile
-PUT    /api/v1/auth/profile      - Update profile
-GET    /api/v1/auth/permissions  - User permissions
-GET    /api/v1/users/me          - Get current user details
-```
 
 ### Core Implementation
 
