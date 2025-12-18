@@ -46,7 +46,7 @@
     "stylelint": "^16.26.1",
     "stylelint-config-standard-scss": "^16.0.0",
     "vitepress": "^1.6.4",
-    "vue": "^3.5.25"
+    "vue": "^3.5.26"
   },
   "packageManager": "pnpm@10.19.0"
 }
