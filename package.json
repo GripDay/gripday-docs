@@ -1,6 +1,6 @@
 {
   "name": "@gripday/gripday-docs",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Project documentation powered by Vitepress.",
   "type": "module",
   "scripts": {
