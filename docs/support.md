@@ -1,6 +1,6 @@
 # Support
 
-Get help with GripDay through our comprehensive support channels. Whether you're a developer, user, or business, we're here to help you succeed with the open-core B2B marketing automation platform.
+Get help with GripDay through our support channels. Whether you're a developer, user, or business, we're here to help you succeed with the open-core B2B marketing automation platform.
 
 ## 🚀 Quick Help
 
