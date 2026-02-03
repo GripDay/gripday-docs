@@ -141,10 +141,10 @@ docker-compose logs -f [service-name]
 docker-compose restart [service-name]
 
 # Stop all services
-docker-compose down
+docker compose down
 
 # Stop and remove volumes (data loss!)
-docker-compose down -v
+docker compose down -v
 ```
 
 #### Updates and Maintenance
@@ -154,7 +154,7 @@ docker-compose down -v
 docker-compose pull
 
 # Rebuild and restart
-docker-compose up --build -d
+docker compose up --build -d
 
 # Clean up unused resources
 docker system prune -f

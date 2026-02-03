@@ -138,7 +138,7 @@ docker-compose logs [service-name]
 docker-compose restart [service-name]
 
 # Clean restart
-docker-compose down && docker-compose up -d
+docker compose down && docker compose up -d
 ```
 
 #### Kubernetes Issues

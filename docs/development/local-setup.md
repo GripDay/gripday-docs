@@ -167,7 +167,7 @@ docker-compose logs -f contact-service
 docker-compose restart contact-service
 
 # Rebuild service with changes
-docker-compose up --build -d contact-service
+docker compose up --build -d contact-service
 
 # Execute into service container
 docker-compose exec contact-service bash
