@@ -9,7 +9,7 @@
     "docs:preview": "vitepress preview docs",
     "lint": "pnpm prettier:check",
     "lint:stylelint": "stylelint \"**/*.css\" --aei",
-    "node_modules:clear": "rm -rf node_modules",
+    "node_modules:cleanup": "rm -rf node_modules",
     "prepare": "husky",
     "prettier:check": "prettier . --check --ignore-unknown",
     "prettier:write": "prettier . --write",
