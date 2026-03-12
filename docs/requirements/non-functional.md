@@ -177,13 +177,13 @@ This document outlines the non-functional requirements (NFRs) for **GripDay**, a
 
 ### Code Quality
 
-| Aspect              | Requirement                 | Implementation               |
-| ------------------- | --------------------------- | ---------------------------- |
-| **Code Coverage**   | Minimum test coverage       | 80% unit test coverage       |
-| **Code Standards**  | Consistent coding standards | Checkstyle, ESLint, Prettier |
-| **Documentation**   | Comprehensive documentation | JavaDoc, OpenAPI specs       |
-| **Code Reviews**    | Mandatory peer reviews      | GitHub PR reviews            |
-| **Static Analysis** | Automated code analysis     | SonarQube                    |
+| Aspect              | Requirement                 | Implementation            |
+| ------------------- | --------------------------- |---------------------------|
+| **Code Coverage**   | Minimum test coverage       | 80% unit test coverage    |
+| **Code Standards**  | Consistent coding standards | Checkstyle, oxlint, oxfmt |
+| **Documentation**   | Comprehensive documentation | JavaDoc, OpenAPI specs    |
+| **Code Reviews**    | Mandatory peer reviews      | GitHub PR reviews         |
+| **Static Analysis** | Automated code analysis     | SonarQube                 |
 
 ### Architecture Quality
 

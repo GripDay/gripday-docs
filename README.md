@@ -28,13 +28,13 @@ pnpm docs:dev
 
 ### Available Scripts
 
-| Command                | Description                |
-| ---------------------- | -------------------------- |
-| `pnpm docs:dev`        | Start development server   |
-| `pnpm docs:build`      | Build for production       |
-| `pnpm docs:preview`    | Preview production build   |
-| `pnpm formatter:write` | Run Prettier over the code |
-| `pnpm lint`            | Lint code                  |
+| Command                | Description              |
+| ---------------------- |--------------------------|
+| `pnpm docs:dev`        | Start development server |
+| `pnpm docs:build`      | Build for production     |
+| `pnpm docs:preview`    | Preview production build |
+| `pnpm formatter:write` | Run oxfmt over the code  |
+| `pnpm lint`            | Lint code                |
 
 ### Environment Variables
 
