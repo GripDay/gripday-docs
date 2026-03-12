@@ -178,7 +178,7 @@ This document outlines the non-functional requirements (NFRs) for **GripDay**, a
 ### Code Quality
 
 | Aspect              | Requirement                 | Implementation            |
-| ------------------- | --------------------------- |---------------------------|
+| ------------------- | --------------------------- | ------------------------- |
 | **Code Coverage**   | Minimum test coverage       | 80% unit test coverage    |
 | **Code Standards**  | Consistent coding standards | Checkstyle, oxlint, oxfmt |
 | **Documentation**   | Comprehensive documentation | JavaDoc, OpenAPI specs    |
