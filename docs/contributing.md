@@ -75,11 +75,11 @@ git checkout -b feature/your-feature-name
 
 # Run tests
 ./mvnw test
-npm test
+pnpm test
 
 # Run linting
 ./mvnw checkstyle:check
-npm run lint
+pnpm run lint
 ```
 
 #### Commit Changes

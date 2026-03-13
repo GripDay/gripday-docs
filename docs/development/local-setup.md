@@ -136,8 +136,8 @@ docker-compose -f docker/frontend.yml up -d
 
 # Or run locally for development
 cd frontend/web-app
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 #### 7. Start Monitoring Stack
