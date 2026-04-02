@@ -8,7 +8,7 @@ Getting-started guidance, feature details, and API reference documentation.
 >
 > #### Install Prerequisites:
 >
-> - [Node LTS version](https://nodejs.org/en/blog/release/v22.15.0/)
+> - [Node LTS version](https://nodejs.org/en/blog/release/v22.16.0/)
 > - [pnpm](https://pnpm.io/installation)
 > - [Git](https://git-scm.com/)
 
